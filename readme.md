@@ -6,11 +6,20 @@ This repo include google colab notebooks for nlp class in Isik University.
 - colab's notebook are coppied to this directory.
 - there are several revisions are made, most succesful ones are uploaded. 
 
-## Timeline 
+
+```
+.
+├── README.md
+├── scripts               # colab-notebooks
+├── models                # each revision models 
+```
 
 
-| Date | Lecture |
+
+## Steps 
+
+
+| - | - |
 |------|---------|
-| **8/26/2024** | [Introduction: Supervised, unsupervised, reinforcement learning](./slides/lecture01-introduction.ipynb) |
+| validation-step| after revision-7 a validation tracker is added. |
 
-- after revision-7 a validation tracker is added.
