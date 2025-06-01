@@ -21,7 +21,7 @@ This repo include google colab notebooks for nlp class in Isik University.
 
 A model to convert paragraphs into condensed summaries. Captures key information in an easily understandable and shorter format.
 
-- Architecture: **Seq2Seq** model (Encoder-Decoder)
+- Architecture: **Seq2Seq** 
 - Dataset: **Multi-XScience**
 - Framework: **PyTorch**
 
@@ -31,12 +31,11 @@ A model to convert paragraphs into condensed summaries. Captures key information
 ## Model Architecture
 
 - **Encoder**:
-  - LSTM layers with embedding
+  - LSTM layers with embedding layer
 - **Decoder**:
   - LSTM layers and FC output layer
 - **Seq2Seq Class**:
-  - Combines encoder and decoder
-  - Teacher forcing used during training
+  - encoder and decoder classes
 
 ---
 
