@@ -8,10 +8,13 @@ This repo include google colab notebooks for nlp class in Isik University.
 
 
 ```
-.
+
 ├── README.md
-├── scripts               # colab-notebooks
-├── models                # each revision models 
+├── scripts               # colab-notebooks.
+├── models                # each revision models. 
+├── results
+    ├── presentation          # a pdf version of the presentation.
+    ├── project paper         # a pdf version of the project's paper.
 ```
 
 
