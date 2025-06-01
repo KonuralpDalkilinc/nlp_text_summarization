@@ -1,4 +1,4 @@
-# Project CSE561.1 ADVANCED NATURAL LANGUAGE PROCESSING (3) (SPRING25)
+# Project - CSE561.1 ADVANCED NATURAL LANGUAGE PROCESSING (3) (SPRING25)
 
 This repo include google colab notebooks for nlp class in Isik University.
 
@@ -13,16 +13,49 @@ This repo include google colab notebooks for nlp class in Isik University.
 ├── scripts               # colab-notebooks.
 ├── models                # each revision models. 
 ├── results
-    ├── presentation          # a pdf version of the presentation.
-    ├── project paper         # a pdf version of the project's paper.
+|   ├── presentation          # a pdf version of the presentation.
+|   ├── project paper         # a pdf version of the project's paper.
 ```
+---
+## Project Description
+
+A model to convert paragraphs into condensed summaries. Captures key information in an easily understandable and shorter format.
+
+- Architecture: **Seq2Seq** model (Encoder-Decoder)
+- Dataset: **Multi-XScience**
+- Framework: **PyTorch**
+
+---
 
 
+## Model Architecture
 
-## Steps 
+- **Encoder**:
+  - LSTM layers with embedding
+- **Decoder**:
+  - LSTM layers and FC output layer
+- **Seq2Seq Class**:
+  - Combines encoder and decoder
+  - Teacher forcing used during training
+
+---
+
+---
+
+## Improvements
+
+- Early stopping added to reduce overfitting
+- Bottleneck architecture
+- Vocabulary limit for efficiency
+- Graph visualization tools added
+
+---
 
 
-| - | - |
-|------|---------|
-| validation-step| after revision-7 a validation tracker is added. |
+## Conclusion
 
+Despite many efforts the model was unable to generate meaningful summaries.
+
+Key NLP fundamentals like tokenization, embeddings, semantic meaning, and sequence modeling were implemented.
+
+---
